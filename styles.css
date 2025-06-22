@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.gola{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#nav-part2 h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#nav-part2 h4 span{
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+#nav2{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 50px ;
+    gap: 90px;
+}
+
+#nav2 h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#content{
+    height: calc(100% - 150px);
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#text-content{
+    height: 40%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+}
+
+#text-content::-webkit-scrollbar {
+    height: 8px;
+    background-color: transparent;
+    /* display: none; */
+}
+#text-content::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
+
+.elem{
+    flex-shrink: 0;
+    height:100%;
+    width: 70%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem h1{
+    font-size: 130px;
+    font-weight: 300;
+}
+
+.image-content{
+    height: 60%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    overflow-x: auto;
+}
+.image-content::-webkit-scrollbar {
+  display: none;
+}
+.image-content img{
+    object-position: 0 40%;
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

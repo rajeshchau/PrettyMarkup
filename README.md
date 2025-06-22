@@ -17,7 +17,8 @@
 
 ## 📸 Preview
 
-![PrettyMarkup Screenshot](https://cdn.pixabay.com/photo/2017/03/02/02/41/html-2111324_1280.jpg)
+![Screenshot 2025-06-22 142828](https://github.com/user-attachments/assets/1c256026-e7ef-42b6-9f6f-befa6259c032)
+
 
 ---
 
